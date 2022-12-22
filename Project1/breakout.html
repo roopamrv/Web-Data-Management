@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Breakout Game in JavaScript</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="breakout_vaibs.js"></script>
+  </head>
+  <body onload="initialize();" onmousemove="movePaddle(event);">
+    <form>
+      <table>
+        <tr><th colspan="3"><h1>Breakout Game</h1></th></tr>
+        <tr>
+          <td><input type="button" value="Start" onclick="startGame();" /></td>
+          <td>
+            <label> Level:
+              <select id="level">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="Reset" onclick="resetGame();" /></td>
+          <td style="width:100px">
+            <label>Score: <span id="score">0</span></label>
+          </td>
+          <td>
+            <label>Tries: <span id="tries">0</span></label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            <div id="court"
+                 style="border: solid black; background-color: azure; cursor: none; width: 805px; height: 500px;"
+                 onclick="startGame(event);">
+              <table>
+                <tr style="height:50px">
+                  <td>
+                    <img id="red" src="red.png" width="40px" style="margin: 0; padding: 0; position: relative;"/>
+                    <img id="blue" src="blue.png" width="40px" style="margin: 0; padding: 0; position: relative;"/>
+                    <img id="yellow" src="yellow.png" width="40px" style="margin: 0; padding: 0; position: relative;"/>
+                    <img id="green" src="green.png" width="40px" style="margin: 0; padding: 0; position: relative;"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td><div id="wall" style="width: 800px; height: 400px; left: 0px; top: 30px"></div></td>
+                </tr>
+                <tr>
+                  <td><img id="paddle" src="paddle.png" height="10px" style="margin: 0; padding: 0; position: relative; left: 0px; top: 10px;"/></td>
+                </tr>
+                <tr>
+                  <td><img id="ball" src="ball.gif" height="20px" style="margin: 0; padding: 0px; position: relative;" /></td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Messages:</td>
+          <td colspan="2"><span id="messages">Hello</span></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
