@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Find Restaurants on Yelp</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="yelp.js"></script>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>City: <input type="text" id="city"/></label>
+       <label>KeyWord: <input type="text" id="term"/></label>
+	<label>Level:
+         <select id="level">
+           <option>5</option>
+           <option>10</option>
+           <option>15</option>
+           <option>20</option>
+         </select>
+         <input type="button" onclick="findRestaurants();" value="Find"/>
+    </form>
+    <hr>
+    <div type="text" id="output">&nbsp;</div>
+    <table id="tabledata">&nbsp</table>
+  </body>
+</html>
