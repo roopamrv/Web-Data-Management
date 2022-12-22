@@ -1,0 +1,22 @@
+<!-- 
+DTD for reed. This DTD lists all elements and shows the accurate nestedness, but it does
+not describe the frequency of elements correctly (yet). 
+-->
+<!ELEMENT root (course*)>
+<!ELEMENT course (reg_num,subj,crse,sect,title,units,instructor,days,time,place)>
+
+<!ELEMENT reg_num (#PCDATA)>
+<!ELEMENT subj (#PCDATA)>
+<!ELEMENT crse (#PCDATA)>
+<!ELEMENT sect (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT units (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>
+<!ELEMENT days (#PCDATA)>
+
+<!ELEMENT time (start_time,end_time)>
+<!ELEMENT start_time (#PCDATA)>
+<!ELEMENT end_time (#PCDATA)>
+<!ELEMENT place (building,room)>
+<!ELEMENT building (#PCDATA)>
+<!ELEMENT room (#PCDATA)>

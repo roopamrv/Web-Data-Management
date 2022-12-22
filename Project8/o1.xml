@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><queryresults_1><course>
+                    Course Title: <title>Calculus I</title> 
+                    Instructor: <instructor>Mayer</instructor>  
+                    Start Time: <start_time>08:00AM</start_time> 
+                    End Time: <end_time>08:50</end_time></course><course>
+                    Course Title: <title>Calculus I</title> 
+                    Instructor: <instructor>Shurman</instructor>  
+                    Start Time: <start_time>11:00AM</start_time> 
+                    End Time: <end_time>11:50</end_time></course><course>
+                    Course Title: <title>Calculus II</title> 
+                    Instructor: <instructor>Mayer</instructor>  
+                    Start Time: <start_time>08:00AM</start_time> 
+                    End Time: <end_time>08:50</end_time></course><course>
+                    Course Title: <title>Calculus II</title> 
+                    Instructor: <instructor>Perkinson</instructor>  
+                    Start Time: <start_time>11:00AM</start_time> 
+                    End Time: <end_time>11:50</end_time></course><course>
+                    Course Title: <title>Calculus II</title> 
+                    Instructor: <instructor>Wieting</instructor>  
+                    Start Time: <start_time>12:00PM</start_time> 
+                    End Time: <end_time>12:50</end_time></course><course>
+                    Course Title: <title>Introduction to Analysis I</title> 
+                    Instructor: <instructor>Bernhard</instructor>  
+                    Start Time: <start_time>12:00PM</start_time> 
+                    End Time: <end_time>12:50</end_time></course><course>
+                    Course Title: <title>Complex Analysis</title> 
+                    Instructor: <instructor>Perkinson</instructor>  
+                    Start Time: <start_time>10:00AM</start_time> 
+                    End Time: <end_time>10:50</end_time></course><course>
+                    Course Title: <title>Advanced Calculus</title> 
+                    Instructor: <instructor>Shurman</instructor>  
+                    Start Time: <start_time>10:00AM</start_time> 
+                    End Time: <end_time>10:50</end_time></course><course>
+                    Course Title: <title>Geometry</title> 
+                    Instructor: <instructor>Wieting</instructor>  
+                    Start Time: <start_time>02:10PM</start_time> 
+                    End Time: <end_time>03:00</end_time></course><course>
+                    Course Title: <title>Probability</title> 
+                    Instructor: <instructor>Wieting</instructor>  
+                    Start Time: <start_time>09:00AM</start_time> 
+                    End Time: <end_time>09:50</end_time></course><course>
+                    Course Title: <title>Topics in Advanced AnalysisII</title> 
+                    Instructor: <instructor>Mayer</instructor>  
+                    Start Time: <start_time>03:10PM</start_time> 
+                    End Time: <end_time>04:00</end_time></course><course>
+                    Course Title: <title>Algebraic Structures</title> 
+                    Instructor: <instructor>Bernhard</instructor>  
+                    Start Time: <start_time>03:10PM</start_time> 
+                    End Time: <end_time>04:00</end_time></course><course>
+                    Course Title: <title>Topics In Computer Theory</title> 
+                    Instructor: <instructor>Fix</instructor>  
+                    Start Time: <start_time>02:10PM</start_time> 
+                    End Time: <end_time>03:00</end_time></course></queryresults_1>
